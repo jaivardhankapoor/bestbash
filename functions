@@ -1,10 +1,10 @@
 # FUNCTIONS {{{
 # SET PROXY ON OR OFF{{{
 function proxyon() {
-    read  -p "Input IITK username: " username
-    read -s -p "Input IITK password: " password
-    gsettings set org.gnome.system.proxy.http authentication-user $username
-    gsettings set org.gnome.system.proxy.http authentication-password $password
+    #read  -p "Input IITK username: " username
+    #read -s -p "Input IITK password: " password
+    #gsettings set org.gnome.system.proxy.http authentication-user $username
+    #gsettings set org.gnome.system.proxy.http authentication-password $password
     gsettings set org.gnome.system.proxy mode 'manual'
     gsettings set org.gnome.system.proxy.http host 'vsnlproxy.iitk.ac.in'
     gsettings set org.gnome.system.proxy.http port 3128
@@ -17,8 +17,8 @@ function proxyon() {
 
 function proxyoff() {
      gsettings set org.gnome.system.proxy mode 'none'
-     gsettings set org.gnome.system.proxy.http authentication-user ''
-     gsettings set org.gnome.system.proxy.http authentication-password ''
+#     gsettings set org.gnome.system.proxy.http authentication-user ''
+#     gsettings set org.gnome.system.proxy.http authentication-password ''
      echo "Proxy disabled."
 }
 #}}}
@@ -368,7 +368,24 @@ to_iso () {
 # REMIND ME, ITS IMPORTANT! {{{
 # usage: remindme <time> <text>
 # e.g.: remindme 10m "omg, the pizza"
-remindme() { sleep $1 && zenity --info --text "$2" & }
+remindme() {
+  if [[ "$#" -lt 2 ]]; then
+    echo -e "Usage: remindme [time] '[message]'"
+    echo -e "Example: remindme 50s 'check mail'"
+    echo -e "Example: remindme 10m 'go to class'"
+    #exit 0 #not enough args
+  fi
+  if [[ "$#" -gt 2 ]]; then
+    echo -e "Usage: remindme [time] '[message]'"
+    echo -e "Example: remindme 50s 'check mail'"
+    echo -e "Example: remindme 10m 'go to class'"
+    #exit 0 #more than enough args
+  fi
+  if  [[ "$#" == 2 ]]; then
+    sleep $1 && notify-send -t 15000 "$2" &
+  fi
+  }
+
 #}}}
 
 # SIMPLE CALCULATOR #{{{

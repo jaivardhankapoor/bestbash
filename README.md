@@ -15,13 +15,13 @@
 ###Functions
 Custom commands for super lazy people ;)
 
-1. Seting proxy on or off for  IITK intranet
+1. Seting proxy on or off for  IITK intranet(Unfortunately only works for gnome settings :(  )
 2. Better git commands(Kudos to helmuthdu)
 3. up:go up the directory structure specified number of times
 4. extract: Extracts zip, tar.gz,tar.bz2 files in one command
 5. compress: similar to above
 6. to_iso: Converts to ISO
-7. remindme: uses  zenity to display notification after specified number of time(remindme [time in seconds] [text])
+7. remindme: uses notify-send to display notification after specified number of time(remindme [time in seconds] [text])
 8. calc: a simple calculator
 9. ff: find file with a pattern in name
 10. fe: find file with pattern in name and execute a command on it(example: fe a.out 1)
@@ -34,7 +34,7 @@ Custom commands for super lazy people ;)
 17. mkcd: mkdir and cd into new dir
 
 ###Settings
-OS, Bash, Bash history, Completion, confog, Ruby, NVM, VTE, ANDROID SDK, EDITOR settings
+OS, Bash, Bash history, Completion, Config, Ruby, NVM, VTE, ANDROID SDK, EDITOR settings
 
 ##Configuration Instructions
   ```
