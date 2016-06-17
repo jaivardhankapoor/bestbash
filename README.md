@@ -14,24 +14,23 @@
 
 ###Functions
 Custom commands for super lazy people ;)
-1. Seting proxy on or off for  IITK intranet
-2. Better git commands(Kudos to helmuthdu)
-3. Top 11 commands(google them!):
-  1. up:go up the directory structure specified number of times
-  2. extract: Extracts zip, tar.gz,tar.bz2 files in one command
-  3. compress: similar to above
-  4. to_iso: Converts to ISO
-  5. remindme: uses  zenity to display notification after specified number of time(remindme [time in seconds] [text])
-  6. calc: a simple calculator
-  7. ff: find file with a pattern in name
-  8. fe: find file with pattern in name and execute a command on it(example: fe a.out 1)
-  9. lowercase: move filenames to lowercase
-  10. swap: swap2 filenames around
-  11. dirsize: Self explanatory
-  12. fared: find and remove all empty directories
-  13. cd: cd with ls
-  14. systemd support with various aliases and functions
-  15. mkcd: mkdir and cd into new dir
+2. Seting proxy on or off for  IITK intranet
+3. Better git commands(Kudos to helmuthdu)
+1. up:go up the directory structure specified number of times
+2. extract: Extracts zip, tar.gz,tar.bz2 files in one command
+3. compress: similar to above
+4. to_iso: Converts to ISO
+5. remindme: uses  zenity to display notification after specified number of time(remindme [time in seconds] [text])
+6. calc: a simple calculator
+7. ff: find file with a pattern in name
+8. fe: find file with pattern in name and execute a command on it(example: fe a.out 1)
+9. lowercase: move filenames to lowercase
+10. swap: swap2 filenames around
+11. dirsize: Self explanatory
+12. fared: find and remove all empty directories
+13. cd: cd with ls
+14. systemd support with various aliases and functions
+15. mkcd: mkdir and cd into new dir
 
 ###Settings
 OS, Bash, Bash history, Completion, confog, Ruby, NVM, VTE, ANDROID SDK, EDITOR settings
