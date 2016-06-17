@@ -38,7 +38,7 @@ Custom commands for super lazy people ;)
 OS, Bash, Bash history, Completion, confog, Ruby, NVM, VTE, ANDROID SDK, EDITOR settings
 ----
 ##Configuration Instructions
-  '''bash
+  '''
   #clone into home
   git clone https://github.com/jaivardhankapoor/bestbash ~/.bash/
   #backup old .bashrc and .bashrc related files
