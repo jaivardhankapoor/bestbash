@@ -35,6 +35,7 @@ Custom commands for super lazy people ;)
   15. mkcd: mkdir and cd into new dir
 
 ###Settings
+
 OS, Bash, Bash history, Completion, confog, Ruby, NVM, VTE, ANDROID SDK, EDITOR settings
 ----
 ##Configuration Instructions
