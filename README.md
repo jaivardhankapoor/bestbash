@@ -47,4 +47,4 @@ OS, Bash, Bash history, Completion, confog, Ruby, NVM, VTE, ANDROID SDK, EDITOR 
   #ALL DONE!
  ```
 ----
-###KUDOS TO helmunthdu for sharing his awesome bashrc file and making my life much much easier!
+###KUDOS TO helmuthdu for sharing his awesome bashrc file and making my life much much easier!
