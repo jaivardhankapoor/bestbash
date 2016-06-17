@@ -1,6 +1,5 @@
 #BESTBASH: The best configuration you will ever find for bash
 ##Configured for Arch Linux
-----
 ##Features
 ###Colors
 1. colored manpages
