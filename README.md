@@ -38,7 +38,7 @@ Custom commands for super lazy people ;)
 OS, Bash, Bash history, Completion, confog, Ruby, NVM, VTE, ANDROID SDK, EDITOR settings
 ----
 ##Configuration Instructions
-  '''
+  ```
   #clone into home
   git clone https://github.com/jaivardhankapoor/bestbash ~/.bash/
   #backup old .bashrc and .bashrc related files
@@ -46,6 +46,6 @@ OS, Bash, Bash history, Completion, confog, Ruby, NVM, VTE, ANDROID SDK, EDITOR 
   #create symlink for .bashrc
   ln -s ~/.bash/init ~/.bashrc
   #ALL DONE!
-  '''
+ ```
 ----
 ###KUDOS TO helmunthdu for sharing his awesome bashrc file and making my life much much easier!
