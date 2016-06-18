@@ -1,6 +1,3 @@
-# Archlinux Ultimate Install - .bashrc
-# by helmuthdu
-
 source ~/.bash/colors
 source ~/.bash/settings
 source ~/.bash/alias
