@@ -28,8 +28,9 @@ alias mkdir='mkdir -p -v'
 alias more='less'
 alias nano='nano -w'
 alias ping='ping -c 5'
-alias c='clear'
+alias c='clear && clear'
 alias .bashrc="vim ~/.bashrc"
+alias exho='echo'
 #}}}
 # PRIVILEGED ACCESS {{{
 if ! $_isroot; then
