@@ -46,5 +46,3 @@ OS, Bash, Bash history, Completion, Config, Ruby, NVM, VTE, ANDROID SDK, EDITOR 
   ln -s ~/.bash/init ~/.bashrc
   #ALL DONE!
  ```
-----
-###KUDOS TO helmuthdu for sharing his awesome bashrc file and making my life much much easier!
