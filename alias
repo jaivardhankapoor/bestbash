@@ -63,6 +63,7 @@ if $_isarch; then
   alias pacind='pacman -S --asdeps'     # Install given package(s) as dependencies of another package
   alias pacclean="pacman -Sc"           # Delete all not currently installed package files
   alias pacmake="makepkg -fcsi"         # Make package from PKGBUILD file in current directory
+  alias changemirror='svim /etc/pacman.d/mirrorlist'
 fi
 #}}}
 # MULTIMEDIA {{{
@@ -84,3 +85,6 @@ alias lm='la | less'
 #alias for activating env1
 #python virtualenv alias
 alias venv='source ~/env1/bin/activate'
+alias notes='vim ~/notes.txt'
+alias speedtest=~/speedtest
+alias utime='sudo ntpdate pool.ntp.org'
