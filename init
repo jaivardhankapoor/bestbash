@@ -1,5 +1,4 @@
 source ~/.bash/colors
-cat ~/notes.txt
 source ~/.bash/settings
 source ~/.bash/alias
 source ~/.bash/functions
